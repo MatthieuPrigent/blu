@@ -1,0 +1,73 @@
+#menu-social { float: right; }
+#text-2 .textwidget { margin-bottom: 15px; }
+.social-link { transition: all 0.3s; width: 98px; height: 35px; background-color: black; display: inline-block; color: white; padding-top: 10px; text-align: center; }
+a.social-link:visited { color: white; }
+a.social-link:hover { color: white; }
+.social-link.fb:hover { background-color: #3A5795; }
+.social-link.twitter:hover { background-color: #55ACEE; }
+.social-link.instagram:hover { background-color: #926147; }
+.social-link.instagram { width: 97px; }
+.site-sidebar .widget_search .search-field { width: 52.5%; }
+.widget.WP_Mailjet_Subscribe_Widget input#email { width: 178px; }
+.widget.WP_Mailjet_Subscribe_Widget input.mailjet-subscribe { float: right; }
+
+.site-mag-viewer {
+	float: right;	
+}
+
+@media screen and (max-width: 758px){
+	.site-header .site-mag-viewer {
+		float: none;
+		text-align: center;
+	}	
+}
+
+@media screen and (max-width: 758px){
+	.how-to-list {
+		display: block;
+	}
+
+	.how-to-list__item {
+		display: block;
+		text-align: center;
+	}	
+}
+
+.how-to-list {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.how-to-list__item {
+	display: table-cell;
+	text-align: center;
+}
+
+.mag-list {
+	width: 100%;
+}
+
+.mag-list__item {
+	margin: 0 5px;
+	display: inline-block;
+	text-align: center;
+}
+
+.site-content__slider {
+    border: solid #333;
+    border-width: 0 0 3px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.community {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.community__item {
+	display: table-cell;
+	text-align: center;
+}

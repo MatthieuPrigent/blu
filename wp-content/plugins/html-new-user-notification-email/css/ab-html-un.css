@@ -1,0 +1,18 @@
+/*
+* Options styling
+*/
+
+.ab-shortcode { color: #2ea2cc; }
+.ab-html-notification-wrap .wp-editor-wrap { width: 80%; }
+.ab-mail-subject { width: 40%; }
+.ab-mail-sender { width: 30%; }
+.form-table .ab-note { color: #FF5A00; font-size: 12px; margin-top: 20px; }
+
+.ab-sepeartion { border-bottom: 1px solid #ddd; height: 40px; }
+
+@media only screen and (max-width: 959px) {
+
+    .ab-html-notification-wrap .wp-editor-wrap { width: 100%; }
+
+}
+
